@@ -1,4 +1,7 @@
 package org.example;
 
-public class IMusicPlayer {
+public interface IMusicPlayer {
+    void play();
+    void pause();
+    void selectMusic(String music);
 }

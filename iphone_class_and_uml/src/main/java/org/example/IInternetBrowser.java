@@ -1,4 +1,7 @@
 package org.example;
 
-public class IInternetBrowser {
+public interface IInternetBrowser {
+    void displayPage(String url);
+    void addNewTab();
+    void updatePage();
 }

@@ -1,4 +1,8 @@
 package org.example;
 
-public class IPhoneDevice {
+public interface IPhoneDevice {
+
+    void call(String phoneNumber);
+    void answerCall();
+    void startVoiceMail();
 }
