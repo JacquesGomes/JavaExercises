@@ -1,4 +1,7 @@
 package org.example;
 
-public class IAccount {
+interface IAccount {
+    void deposit(double amount);
+    void withdraw(double amount);
+    double getBalance();
 }
