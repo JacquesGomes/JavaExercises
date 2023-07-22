@@ -1,0 +1,24 @@
++ = public
+- = private
+# = protected
+~ = package local
+
+(in) = usa como input mas não muda o parâmetro (read-only)
+(inout) = usa como input e muda o parâmetro (read and write)
+(out) = somente muda o parâmetro (write-only)
+
+association (simple line) = interact with each other
+
+inheritance (line with triangle with no inner color - only border is colored) = herança (abstract class = italic name)
+
+realisation (dashed line with solid triangle) = interface (<<Interface>> \n Name)
+
+dependency (dashed line with curved triangle) = changes in one class will modify the other
+
+aggregation (line with spear with no inner color - only border is colored) = conjunto de classes
+
+composition (line with solid spear) = conjunto de classes onde as classes menores não sobrevivem sem a maior classe
+
+one to one = 1
+one to many = 1..*
+many to many = *
