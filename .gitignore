@@ -1,0 +1,7 @@
+
+# Custom
+/.idea
+/*/.idea
+/*/gradle/
+/*/gradlew
+/*/gradlew.*
